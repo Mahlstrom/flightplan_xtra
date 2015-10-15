@@ -1,0 +1,32 @@
+{
+  "name" : "flightplan_xtra",
+  "version" : "0.1.0",
+  "description" : "xtra functions for flightplan",
+  "main" : "index.js",
+  "bin" : {},
+  "dependencies" : {
+    "read-package-json": "^2.0.0",
+    "git-rev-2": "git+ssh://git@github.com/vlinder/git-rev.git"
+  },
+  "devDependencies" : {},
+  "scripts" : {},
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/yanatan16/git-rev.git"
+  },
+  "homepage" : "https://github.com/yanatan16/git-rev",
+  "keywords" : [ "git", "revision", "tag", "describe", "hash", "short-hash", "branch", "git-log" ],
+  "authors" : [
+    {
+      "name" : "Thomas Blobaum",
+      "email" : "tblobaum@gmail.com",
+      "url" : "https://github.com/tblobaum/"
+    },
+    {
+      "name": "Jon Eisen",
+      "email": "jon@joneisen.me",
+      "url": "http://joneisen.me"
+    }
+  ],
+  "license" : "MIT"
+}
