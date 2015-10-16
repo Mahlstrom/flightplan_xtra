@@ -12,20 +12,15 @@
   "scripts" : {},
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/yanatan16/git-rev.git"
+    "url" : "git@github.com:Mahlstrom/flightplan_xtra.git"
   },
-  "homepage" : "https://github.com/yanatan16/git-rev",
-  "keywords" : [ "git", "revision", "tag", "describe", "hash", "short-hash", "branch", "git-log" ],
+  "homepage" : "https://github.com/Mahlstrom/flightplan_xtra",
+  "keywords" : [ "flightplan" ],
   "authors" : [
     {
-      "name" : "Thomas Blobaum",
-      "email" : "tblobaum@gmail.com",
-      "url" : "https://github.com/tblobaum/"
-    },
-    {
-      "name": "Jon Eisen",
-      "email": "jon@joneisen.me",
-      "url": "http://joneisen.me"
+      "name" : "Magnus Ahlstrom",
+      "email" : "magnus@atuin.se",
+      "url" : ""
     }
   ],
   "license" : "MIT"
