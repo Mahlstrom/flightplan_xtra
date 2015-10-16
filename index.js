@@ -65,9 +65,7 @@ module.exports = {
     getGitFilesToObject: function (local, files) {
         files = files || [];
         files = files.join(" ");
-        local.log(files);
         var gitfiles = local.exec(util.format('git ls-files %s', files), {silent: true});
-        console.log();
         if (gitfiles.stdout == null) {
             local.abort('No git files found with in the specified path');
         }
