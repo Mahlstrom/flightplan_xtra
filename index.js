@@ -76,7 +76,6 @@ module.exports = {
         this.remoteTmpDir = util.format('"%s/%s_deploy_tmp_%s"',pwd, packageConfig.name, (new Date().getTime()));
         var fileName=this.fileName;
         var remoteTmpDir=this.remoteTmpDir;
-        remote.log(this.remoteTmpDir);
         remote.log('Creating temporary directory.');
         remote.exec(util.format('mkdir %s', this.remoteTmpDir));
         remote.log('Extracting new code.');
